@@ -22,6 +22,10 @@ public class Hospital
         return patients;
     }
 
+    public void addPatients(Patient p){
+        patients.add(p);
+    }
+
     public ArrayList<Doctor> getDoctors(){
         return doctors;
     }
